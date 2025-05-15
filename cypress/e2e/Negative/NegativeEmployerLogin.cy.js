@@ -1,5 +1,5 @@
 describe('Авторизация работодателя', () => {
-    it('Успешный вход',() => {
+    it('Неудачный вход',() => {
         cy.fixture('EmployerLog').then(data => {
             cy.log('Переход на страницу авторизации')
             cy.visit("https://dev.profteam.su/login")

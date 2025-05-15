@@ -26,7 +26,6 @@ describe('Подтверждение отлика работодателем', (
             cy.log('Подтверждение отлика')
             cy.get('.responses-list-item > .responses-list-item__actions > .responses-list-item__action').eq(0).click();
 
-
             cy.log('Клик по кнопке "Рабочее пространство" и переход на страницу с рабочим пространством')
             cy.get('.responses-list-item > .button').eq(0).click();
 

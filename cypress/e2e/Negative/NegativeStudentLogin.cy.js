@@ -1,5 +1,5 @@
 describe('Авторизация студента', () => {
-    it('Успешный вход',() => {
+    it('Неудачный вход',() => {
         cy.fixture('studentLog').then(data => {
             cy.log('Переход на страницу авторизации')
             cy.visit("https://dev.profteam.su/login")
