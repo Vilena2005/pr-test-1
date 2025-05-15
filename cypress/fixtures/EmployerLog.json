@@ -1,0 +1,9 @@
+{
+  "login": "testerEmployer",
+  "password": "Password1",
+  "vacancyName": "Работник",
+  "fixedSalary": "12345",
+  "schedule": "30/30",
+  "requirements": "Живой человек желательно",
+  "responsibilities": "Уметь дышать"
+}
