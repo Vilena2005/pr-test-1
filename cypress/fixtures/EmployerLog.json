@@ -7,7 +7,9 @@
   "requirements": "Живой человек желательно",
   "responsibilities": "Уметь дышать",
   "searchVacancy": "Другой работник",
+  "comment": "Комментарий для рабочего пространства",
 
   "nonCorrectLogin": "NoTesterEmployer",
   "nonCorrectPassword": "NoPassword1"
 }
+

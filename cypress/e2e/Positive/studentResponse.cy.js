@@ -17,7 +17,13 @@ describe('Отлик на вакансию студентом', () => {
                 .click()
             cy.wait(3000);
 
+            cy.log('Клик по кнопке "Вакансии"')
+            cy.get(':nth-child(1) > .header__nav > [href="/vacancies"] > .header__label')
+                .click()
 
+            cy.log('Отклик на вакансию')
+            cy.get('.vacancy-item__info-wrapper > .vacancy-footer__button-wrapper').eq(1)
+                .click()
         })
     })
 })
