@@ -1,4 +1,7 @@
 {
-  "login": "testerStudent",
-  "password": "Password1"
+  "login": "testerStudentTest",
+  "password": "Password1",
+
+  "nonCorrectLogin": "NoTesterStudentTest",
+  "nonCorrectPassword": "NoPassword1"
 }
